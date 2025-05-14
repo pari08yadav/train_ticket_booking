@@ -9,7 +9,7 @@ const AddFunds = () => {
 
     // Check for token on component load
     useEffect(() => {
-        const token = localStorage.getItem("token");
+        const token = localStorage.getItem("authToken");
         if (!token) {
         navigate("/login"); // Redirect to login if no token
         }

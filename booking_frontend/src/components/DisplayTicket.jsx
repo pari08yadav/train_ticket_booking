@@ -58,7 +58,7 @@ const DisplayTicket = () => {
                                 <td>{booking.passenger_name}</td>
                                 <td>{booking.passenger_age}</td>
                                 <td>{booking.class_type}</td>
-                                <td>₹{booking.total_fare}</td>
+                                <td>₹{booking.fare}</td>
                                 <td>{booking.train_name}</td>
                                 <td>{booking.train_number}</td>
                                 <td>{booking.source}</td>

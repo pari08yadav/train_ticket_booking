@@ -9,7 +9,8 @@ const CheckBalance = () => {
 
     // Check for token on component load
     useEffect(() => {
-        const token = localStorage.getItem("token");
+        const token = localStorage.getItem("authToken");
+        console.log(token);
         if (!token) {
         navigate("/login"); // Redirect to login if no token
         } else {
